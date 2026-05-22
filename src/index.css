@@ -17,8 +17,10 @@
     "Segoe UI", Roboto, sans-serif;
 }
 
-.font-display {
-  font-weight: 800;
+@layer components {
+  .font-display {
+    font-weight: 800;
+  }
 }
 
 html,

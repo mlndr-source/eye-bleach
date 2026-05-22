@@ -51,7 +51,7 @@ export default function ClinicalData() {
           Clinical Data
         </h2>
 
-        <div className="mx-auto grid max-w-5xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
+        <div className="mx-auto grid max-w-6xl grid-cols-1 gap-6 md:grid-cols-2 md:gap-8">
           {cells.map((cell, i) => (
             <div
               key={i}
