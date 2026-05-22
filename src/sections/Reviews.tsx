@@ -29,7 +29,7 @@ export default function Reviews() {
   return (
     <section className="bg-eye-dark text-eye-light">
       <div className="mx-auto max-w-[1700px] px-10 py-24 md:px-16 md:py-32">
-        <h2 className="mb-16 text-center font-display text-6xl uppercase text-white md:mb-20 md:text-8xl">
+        <h2 className="mb-16 text-center font-display text-6xl uppercase text-eye-white md:mb-20 md:text-8xl">
           Reviews
         </h2>
 

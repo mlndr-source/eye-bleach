@@ -16,7 +16,7 @@ export default function Hero() {
         <div className="grid flex-1 grid-cols-1 items-center gap-16 pb-16 md:grid-cols-2">
           {/* Text */}
           <div className="space-y-10">
-            <h1 className="font-display text-6xl uppercase leading-[0.95] text-white md:text-8xl">
+            <h1 className="font-display text-6xl uppercase leading-[0.95] text-eye-white md:text-8xl">
               Neutralizes<br />
               99.9% of what<br />
               you can't unsee.
@@ -28,7 +28,7 @@ export default function Hero() {
             <div className="flex flex-col items-start gap-8 pt-2 sm:flex-row sm:items-center">
               <a
                 href="#buy"
-                className="bg-eye-red px-12 py-6 font-display text-2xl uppercase tracking-wide text-white transition hover:opacity-90"
+                className="bg-eye-red px-12 py-6 font-display text-2xl uppercase tracking-wide text-eye-white transition hover:opacity-90"
               >
                 Buy on Amazon
               </a>

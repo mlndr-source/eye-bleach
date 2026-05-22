@@ -1,6 +1,6 @@
 export default function FinalCTA() {
   return (
-    <section className="bg-eye-dark text-white">
+    <section className="bg-eye-dark text-eye-white">
       <div className="mx-auto max-w-[1700px] px-10 py-24 text-center md:px-16 md:py-32">
         {/* Setup couplet */}
         <h2 className="font-display text-5xl uppercase leading-[1.1] md:text-8xl">
@@ -23,7 +23,7 @@ export default function FinalCTA() {
         <div className="mt-10 md:mt-14">
           <a
             href="#buy"
-            className="inline-block bg-eye-red px-14 py-7 font-display text-3xl uppercase tracking-wide text-white transition hover:opacity-90 md:px-20 md:py-8 md:text-4xl"
+            className="inline-block bg-eye-red px-14 py-7 font-display text-3xl uppercase tracking-wide text-eye-white transition hover:opacity-90 md:px-20 md:py-8 md:text-4xl"
           >
             Buy on Amazon
           </a>

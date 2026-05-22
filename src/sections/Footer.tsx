@@ -5,17 +5,16 @@ export default function Footer() {
         {/* Top hairline */}
         <div className="border-t border-eye-light/15" />
 
-        {/* Fake-legal disclaimers */}
-        <div className="mt-12 space-y-3 text-center text-sm text-eye-light/50 md:text-base">
-          <p>Not a substitute for therapy. Or is it?</p>
-          <p>Statements on this site have not been evaluated by anyone qualified.</p>
-          <p>Keep out of reach of children, the literal-minded, and most courts.</p>
-        </div>
-
-        {/* Brand-safety disclosure — load-bearing */}
+        {/* Brand-safety disclosure — load-bearing, leads the footer */}
         <p className="mx-auto mt-12 max-w-3xl text-center text-base text-eye-light/80 md:text-lg">
           Eye Bleach is a gag gift. The bottle ships empty. We're selling the concept, not the cure.
         </p>
+
+        {/* Fake-legal disclaimers */}
+        <div className="mt-12 space-y-3 text-center text-sm text-eye-light/50 md:text-base">
+          <p>Statements on this site have not been evaluated by anyone qualified.</p>
+          <p>Keep out of reach of children, the literal-minded, and most courts.</p>
+        </div>
 
         {/* Bottom hairline */}
         <div className="mt-12 border-t border-eye-light/15" />
