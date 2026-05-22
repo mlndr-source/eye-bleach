@@ -10,12 +10,12 @@ export default function FinalCTA() {
         </h2>
 
         {/* Validation */}
-        <p className="mx-auto mt-10 max-w-4xl font-display text-3xl font-medium leading-tight md:mt-14 md:text-5xl">
+        <p className="mx-auto mt-10 max-w-4xl font-display text-3xl font-normal leading-tight md:mt-14 md:text-5xl">
           Faster than therapy. Cheaper than denial.
         </p>
 
         {/* Question — the shove */}
-        <p className="mt-6 font-display text-3xl font-medium leading-tight md:mt-8 md:text-5xl">
+        <p className="mt-6 font-display text-3xl font-normal leading-tight md:mt-8 md:text-5xl">
           What are you waiting for?
         </p>
 

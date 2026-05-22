@@ -17,31 +17,25 @@ export default function Hero() {
           {/* Text */}
           <div className="space-y-10">
             <h1 className="font-display text-6xl uppercase leading-[0.95] text-eye-white md:text-8xl">
-              Neutralizes<br />
-              99.9% of what<br />
-              you can't unsee.
+              Eliminates <span className="text-eye-green">99.99%</span>
+              <br />
+              of what you
+              <br />
+              can't unsee
             </h1>
             <p className="max-w-2xl text-2xl text-eye-light/80 md:text-3xl">
               For the doom-scroll, the deep-web wander, and whatever grandpa
               misunderstood about naked day.
             </p>
-            <div className="flex flex-col items-start gap-8 pt-2 sm:flex-row sm:items-center">
+            <div className="pt-2">
               <a
                 href="https://www.amazon.com/dp/B0CJM2YLQK"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="bg-eye-red px-12 py-6 font-display text-2xl uppercase tracking-wide text-eye-white transition hover:opacity-90"
+                className="inline-block bg-eye-red px-12 py-6 font-display text-2xl uppercase tracking-wide text-eye-white transition hover:opacity-90"
               >
                 Buy on Amazon
               </a>
-              <div className="flex flex-col gap-1">
-                <div className="text-3xl tracking-wider text-eye-yellow">
-                  ★ ★ ★ ★ ★
-                </div>
-                <div className="text-base text-eye-light/60">
-                  4.7 / 5 — 2,000+ reviews
-                </div>
-              </div>
             </div>
           </div>
 
