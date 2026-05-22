@@ -37,7 +37,7 @@ export default function FAQ() {
             >
               <summary className="flex cursor-pointer list-none items-center justify-between gap-6 font-display text-2xl leading-tight md:text-3xl">
                 <span>{item.q}</span>
-                <span className="shrink-0 font-display text-4xl leading-none transition-transform duration-200 group-open:rotate-45 md:text-5xl">
+                <span className="shrink-0 font-display text-4xl leading-none text-eye-green transition-transform duration-200 group-open:rotate-45 md:text-5xl">
                   +
                 </span>
               </summary>
