@@ -1,16 +1,16 @@
-const cuteScenes = [
-  "Capybara in onsen",
-  "Corgi on staircase",
-  "Ducklings in single file",
-  "Sleepy kitten",
-  "Baby goat",
-  "Otter holding stone",
+const cuteImages = [
+  { src: "/cutebunny.jpg", alt: "Cute bunny" },
+  { src: "/cutecat.jpg", alt: "Cute cat" },
+  { src: "/cutedog.jpg", alt: "Cute dog" },
+  { src: "/cuteduck.jpg", alt: "Cute duck" },
+  { src: "/cuteotter.jpg", alt: "Cute otter" },
+  { src: "/cutesheep.jpg", alt: "Cute sheep" },
 ]
 
 export default function Formula() {
   return (
     <section className="bg-eye-dark text-eye-light">
-      <div className="mx-auto max-w-[1700px] px-10 py-24 md:px-16 md:py-32">
+      <div className="mx-auto max-w-[1700px] px-10 pt-24 pb-12 md:px-16 md:pt-32 md:pb-16">
         {/* Heading */}
         <h2 className="mb-12 text-center font-display text-6xl uppercase text-eye-white md:mb-16 md:text-8xl">
           The Formula
@@ -27,36 +27,24 @@ export default function Formula() {
           </p>
         </div>
 
-        {/* Reddit screenshots collage — single composite image to be supplied */}
+        {/* Reddit screenshots collage */}
         <div className="mx-auto mb-20 max-w-5xl">
-          <div className="flex aspect-[16/9] items-center justify-center border-2 border-dashed border-eye-light/30 bg-eye-light/5 p-8 text-center text-eye-light/40">
-            <div>
-              <div className="mb-3 font-display text-3xl uppercase">
-                r/EyeBleach Collage
-              </div>
-              <div className="mx-auto max-w-md text-base">
-                Single composite image to be created: multiple screenshots from
-                the r/EyeBleach subreddit, fanned out like cards spread on a
-                surface seen from above (Polaroid-stack effect — but using
-                Reddit post screenshots instead of Polaroids).
-              </div>
-            </div>
-          </div>
+          <img
+            src="/Reddit_Collage.png"
+            alt="Reddit r/EyeBleach posts collage"
+            className="block h-auto w-full"
+          />
         </div>
 
         {/* Cute content collage */}
         <div className="mb-20 grid grid-cols-2 gap-4 md:grid-cols-3 md:gap-6 lg:grid-cols-6">
-          {cuteScenes.map((label, i) => (
-            <div
-              key={i}
-              className="flex aspect-square items-center justify-center border-2 border-dashed border-eye-light/30 bg-eye-light/5 p-3 text-center text-eye-light/40"
-            >
-              <div>
-                <div className="mb-1 font-display text-xs uppercase tracking-wider md:text-sm">
-                  Photo
-                </div>
-                <div className="text-xs md:text-sm">{label}</div>
-              </div>
+          {cuteImages.map((img, i) => (
+            <div key={i} className="aspect-square overflow-hidden">
+              <img
+                src={img.src}
+                alt={img.alt}
+                className="h-full w-full object-cover"
+              />
             </div>
           ))}
         </div>
@@ -71,23 +59,17 @@ export default function Formula() {
         </div>
 
         {/* Closing line — treated as a beat */}
-        <p className="mb-16 text-center font-display text-5xl uppercase leading-tight text-eye-white md:text-7xl">
+        <p className="mb-4 text-center font-display text-5xl uppercase leading-tight text-eye-white md:text-7xl">
           That's how Eye Bleach was born.
         </p>
 
         {/* Product reveal */}
         <div className="flex justify-center">
-          <div className="flex aspect-[3/4] w-full max-w-lg items-center justify-center border-2 border-dashed border-eye-light/30 bg-eye-light/5 p-8 text-center text-eye-light/40">
-            <div>
-              <div className="mb-2 font-display text-3xl uppercase">
-                Product Reveal
-              </div>
-              <div className="text-base">
-                Photoreal AI · hero bottle / box shot · lying on dark teal · no
-                splash
-              </div>
-            </div>
-          </div>
+          <img
+            src="/Box_Glorified.png"
+            alt="Eye Bleach product reveal"
+            className="block h-auto w-full max-w-3xl"
+          />
         </div>
       </div>
     </section>

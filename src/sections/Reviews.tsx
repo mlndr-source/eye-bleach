@@ -6,7 +6,7 @@ const bigTestimonial = {
 
 const smallTestimonials = [
   {
-    title: "Five stars",
+    title: "Five stars?",
     body: "Don't remember buying it. Don't remember reviewing it. Five stars.",
     author: "[name not recorded]",
   },
@@ -37,17 +37,13 @@ export default function Reviews() {
           {/* Big featured card */}
           <div className="border border-eye-light/20 bg-eye-light/5 p-6 md:p-10 lg:col-span-2">
             <div className="grid grid-cols-1 items-center gap-8 md:grid-cols-2">
-              {/* Character illustration placeholder */}
-              <div className="flex aspect-square w-full items-center justify-center border-2 border-dashed border-eye-light/30 bg-eye-light/5 p-4 text-center text-eye-light/40">
-                <div>
-                  <div className="mb-2 font-display text-2xl uppercase">
-                    Character
-                  </div>
-                  <div className="text-sm">
-                    Photoreal AI · person with slightly red eyes giving a
-                    thumbs-up
-                  </div>
-                </div>
+              {/* Character illustration */}
+              <div className="aspect-square w-full overflow-hidden">
+                <img
+                  src="/Review_friend.png"
+                  alt="Friend giving thumbs up after Eye Bleach"
+                  className="h-full w-full object-cover"
+                />
               </div>
               {/* Testimonial copy */}
               <div>

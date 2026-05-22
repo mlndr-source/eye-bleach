@@ -1,23 +1,28 @@
 export default function Hero() {
   return (
     <section className="bg-eye-dark text-eye-light">
-      <div className="mx-auto flex min-h-screen max-w-[1700px] flex-col px-10 md:px-16">
+      <div className="mx-auto flex min-h-[65vh] max-w-[1700px] flex-col px-10 md:px-16">
         {/* Header / logo */}
         <header className="flex items-center justify-between py-8">
-          <a
-            href="#"
-            className="font-display text-3xl uppercase tracking-wide text-eye-light"
-          >
-            Eye Bleach
+          <a href="#" className="block">
+            <img
+              src="/EyeBleach_Logo.svg"
+              alt="Eye Bleach"
+              className="h-24 w-auto md:h-40"
+            />
           </a>
         </header>
 
         {/* Hero content */}
-        <div className="grid flex-1 grid-cols-1 items-center gap-16 pb-16 md:grid-cols-2">
+        <div className="grid flex-1 grid-cols-1 items-center gap-16 md:grid-cols-[1fr_1.5fr]">
           {/* Text */}
-          <div className="space-y-10">
+          <div className="space-y-10 pb-16">
             <h1 className="font-display text-6xl uppercase leading-[0.95] text-eye-white md:text-8xl">
-              Eliminates <span className="text-eye-green">99.99%</span>
+              Neutralizes
+              <br />
+              <span className="text-7xl leading-none text-eye-green md:text-[10rem]">
+                99.99%
+              </span>
               <br />
               of what you
               <br />
@@ -39,19 +44,13 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Product placeholder */}
-          <div className="flex justify-center">
-            <div className="flex aspect-[3/4] w-full max-w-lg items-center justify-center border-2 border-dashed border-eye-light/30 bg-eye-light/5 p-8 text-center text-eye-light/40">
-              <div>
-                <div className="mb-2 font-display text-3xl uppercase">
-                  Product Hero Shot
-                </div>
-                <div className="text-base">
-                  Photoreal AI · bottle tilted ~22° CCW · lying on dark teal
-                  surface · no splash
-                </div>
-              </div>
-            </div>
+          {/* Bottle hero shot — flush with bottom of dark section */}
+          <div className="flex justify-center self-end">
+            <img
+              src="/Bottle_Hero_Man.png"
+              alt="Eye Bleach being poured on a relieved man"
+              className="block h-auto w-full"
+            />
           </div>
         </div>
       </div>
