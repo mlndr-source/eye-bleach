@@ -22,7 +22,9 @@ export default function FinalCTA() {
         {/* CTA button */}
         <div className="mt-10 md:mt-14">
           <a
-            href="#buy"
+            href="https://www.amazon.com/dp/B0CJM2YLQK"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-eye-red px-14 py-7 font-display text-3xl uppercase tracking-wide text-eye-white transition hover:opacity-90 md:px-20 md:py-8 md:text-4xl"
           >
             Buy on Amazon

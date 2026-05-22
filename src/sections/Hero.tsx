@@ -27,7 +27,9 @@ export default function Hero() {
             </p>
             <div className="flex flex-col items-start gap-8 pt-2 sm:flex-row sm:items-center">
               <a
-                href="#buy"
+                href="https://www.amazon.com/dp/B0CJM2YLQK"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="bg-eye-red px-12 py-6 font-display text-2xl uppercase tracking-wide text-eye-white transition hover:opacity-90"
               >
                 Buy on Amazon

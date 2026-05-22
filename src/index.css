@@ -7,13 +7,15 @@
   --color-eye-light: #c1e5dd;
   --color-eye-white: #f4f7f9;
   --color-eye-red: #d7263d;
+  --color-eye-green: #4fb28e;
   --color-eye-yellow: #f5c842;
 
   /* Display: Antarctican Headline Bold (licensed, files TBD).
-     Falls back to Oswald (Google Fonts) then Impact.
+     Cascades through Franklin Gothic Heavy (Windows system) and
+     Libre Franklin (Google Fonts, open Franklin Gothic clone).
      Body: Fira Sans Condensed (Google Fonts). */
-  --font-display: "Antarctican Headline", "Oswald", "Impact",
-    "Arial Narrow Bold", sans-serif;
+  --font-display: "Antarctican Headline", "Franklin Gothic Heavy",
+    "Libre Franklin", "Impact", "Arial Narrow Bold", sans-serif;
   --font-body: "Fira Sans Condensed", ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, sans-serif;
 }
