@@ -16,8 +16,10 @@ export default function Hero() {
         <div className="grid flex-1 grid-cols-1 items-center gap-16 pb-16 md:grid-cols-2">
           {/* Text */}
           <div className="space-y-10">
-            <h1 className="font-display text-6xl uppercase leading-[0.9] text-white md:text-8xl">
-              Neutralizes 99.9% of what you can't unsee.
+            <h1 className="font-display text-6xl uppercase leading-[0.95] text-white md:text-8xl">
+              Neutralizes<br />
+              99.9% of what<br />
+              you can't unsee.
             </h1>
             <p className="max-w-2xl text-2xl text-eye-light/80 md:text-3xl">
               For the doom-scroll, the deep-web wander, and whatever grandpa
