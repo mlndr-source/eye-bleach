@@ -5,6 +5,7 @@ import ClinicalData from './sections/ClinicalData'
 import Reviews from './sections/Reviews'
 import FAQ from './sections/FAQ'
 import FinalCTA from './sections/FinalCTA'
+import Footer from './sections/Footer'
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Reviews />
       <FAQ />
       <FinalCTA />
+      <Footer />
     </main>
   )
 }
